@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="NetworkImageView">
+        <attr name="uikit_niv_placeholder" format="reference"/>
+        <attr name="uikit_niv_error" format="reference"/>
+        <attr name="uikit_niv_url" format="string"/>
+        <attr name="uikit_niv_circle" format="boolean"/>
+        <attr name="uikit_niv_circle_border_color" format="color"/>
+        <attr name="uikit_niv_circle_border_width" format="dimension"/>
+        <attr name="uikit_niv_apply_transformations_to_placeholder" format="boolean"/>
+        <attr name="uikit_niv_blur_radius" format="integer"/>
+        <attr name="uikit_niv_corner_radius" format="dimension"/>
+        <attr name="uikit_niv_ratio_width" format="integer"/>
+        <attr name="uikit_niv_ratio_height" format="integer"/>
+        <attr name="uikit_niv_corner_type" format="enum">
+            <enum name="all" value="0"/>
+            <enum name="topLeft" value="1"/>
+            <enum name="topRight" value="2"/>
+            <enum name="bottomLeft" value="3"/>
+            <enum name="bottomRight" value="4"/>
+            <enum name="top" value="5"/>
+            <enum name="bottom" value="6"/>
+            <enum name="left" value="7"/>
+            <enum name="right" value="8"/>
+        </attr>
+        <attr name="uikit_niv_mask_color" format="color"/>
+        <attr name="android:scaleType"/>
+    </declare-styleable>
+
+
+</resources>

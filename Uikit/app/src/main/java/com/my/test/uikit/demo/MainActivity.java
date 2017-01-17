@@ -1,5 +1,6 @@
 package com.my.test.uikit.demo;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.model.GenericLoaderFactory;
+import com.bumptech.glide.load.model.ModelLoader;
+import com.bumptech.glide.load.model.ModelLoaderFactory;
+import com.bumptech.glide.load.model.stream.BaseGlideUrlLoader;
+import com.my.uikit.image.NetworkImageView;
+
+import java.io.InputStream;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,7 +36,11 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
+        ((NetworkImageView)findViewById(R.id.image_show)).setUrl("http://avatar.csdn.net/2/C/F/3_chenlibing521.jpg");
+
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
