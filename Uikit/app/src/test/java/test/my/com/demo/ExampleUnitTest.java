@@ -1,4 +1,4 @@
-package test.my.com.uikit;
+package test.my.com.demo;
 
 import org.junit.Test;
 

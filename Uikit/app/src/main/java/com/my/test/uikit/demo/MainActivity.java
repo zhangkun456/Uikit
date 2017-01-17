@@ -1,4 +1,4 @@
-package test.my.com.uikit;
+package com.my.test.uikit.demo;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
